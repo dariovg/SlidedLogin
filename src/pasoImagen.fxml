@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane stylesheets="@application/application.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.Controller">
+   <children>
+      <Pane fx:id="pane1" prefHeight="503.0" prefWidth="800.0" styleClass="pane1" />
+      <Pane fx:id="pane2" prefHeight="503.0" prefWidth="800.0" styleClass="pane2" />
+      <Pane fx:id="pane3" prefHeight="503.0" prefWidth="800.0" styleClass="pane3" />
+      <Pane fx:id="pane4" prefHeight="503.0" prefWidth="800.0" styleClass="pane4" />
+      <Pane prefHeight="461.0" prefWidth="278.0" style="-fx-background-color: #00F0FF; -fx-background-radius: 40px;" styleClass="border" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <JFXTextField focusColor="WHITE" labelFloat="true" layoutX="72.0" layoutY="148.0" promptText="USUARIO" unFocusColor="WHITE" />
+            <JFXPasswordField focusColor="WHITE" labelFloat="true" layoutX="72.0" layoutY="231.0" promptText="CONTRASEÑA" unFocusColor="WHITE" />
+            <JFXButton layoutX="72.0" layoutY="320.0" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: white; -fx-background-radius: 40px;" text="LOGIN" textAlignment="CENTER" textFill="#00f0ff" />
+            <JFXButton layoutX="41.0" layoutY="385.0" text="¿HAS OLVIDADO TU CONTRASEÑA?" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="83.0" fitWidth="86.0" layoutX="96.0" layoutY="28.0">
+               <image>
+                  <Image url="@../../../Desktop/641px-Water_Droplet_Pin.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
